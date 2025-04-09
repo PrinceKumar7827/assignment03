@@ -1,0 +1,112 @@
+@media screen and (max-width: 800px) {
+
+    .nav-left img {
+        width: 150px;
+    }
+    .nav-right ul {
+        display: none;
+    }
+    nav {
+        padding: 0px 20px 0px 10px;
+    }
+    .nav-right button {
+        font-size: 15px;
+        padding: 10px 20px;
+
+    }
+    .hamburger-container {
+        display: block;
+    }
+    .main1 {
+        flex-direction: column;
+    }
+    .main-section-left {
+        font-size: 15px;
+        width: 100%;
+        padding: 0px 20px;
+        margin-top: 10px;
+        height: auto;
+    }
+    .main-section-left h1 {
+        text-align: center;
+        font-weight: 600;
+    }
+    .main-section-left h2 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+
+
+
+    .main2-section1 {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .left-container {
+        grid-template-columns:1fr 1fr;
+        height: 100%;
+        width: 100%;
+        gap: 20px;
+        /* justify-items: center; */
+    }
+    .left-container .item {
+        font-size: 17px;
+        /* width: 50%; */
+    }
+    .left-container .item img {
+        width: 10%;
+    }
+    .main-section-right  {
+        width: 100%;
+        padding: 0px 20px;
+        height: auto;
+    }
+    .main-section-right .cont1 {
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .main-section-right h1  {
+        font-size: 25px;
+    }
+    .cont2 {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .schedule-demo {
+        font-size: 15px;
+    }
+    .main2 {
+        padding-left: 0px;
+    }
+    .main2-section2 {
+        width: 100%;
+        padding: 0px 10px;
+        margin-left: 0px;
+    }
+    .main2-section2 h1 {
+        font-size: 25px;
+        /* padding-left: 20px; */
+        text-align: center;
+    }
+    .section2-item {
+        width: 100%;
+        flex-direction: column;
+    }
+    .sec2-item-left {
+        display: flex;
+        justify-content: center;
+    }
+    .sec2-item-right {
+        text-align: center;
+    }
+    .sec2-item-right > div {
+        font-size: 20px;
+        text-align: start;
+        padding: 0px 20px;
+    }
+    .sec2-item-right > p {
+        font-size: 27px;
+        padding: 0px 20px;
+    }
+}
