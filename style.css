@@ -14,6 +14,7 @@ nav {
     display: flex;
     padding: 0px 20px 0px 20px;
     background-color: #eaeaea;
+    width: 100%;
 
 }
 .nav-left {
@@ -29,7 +30,7 @@ nav {
     /* border: 1px solid red; */
     display: flex;
     justify-content: end;
-    gap: 30px;
+    gap: 20px;
     align-items: center;
 }
 .nav-left img {
@@ -41,6 +42,25 @@ nav {
     font-family: sans-serif;
     color: gray;
     font-size: 20px;
+}
+.hamburger-container {
+    display: none;
+
+}
+.hamburger {
+    height: 25px;
+    width: 30px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.hamburger .line {
+    height: 3px;
+    width: 100%;
+    background-color: gray;
 }
 .nav-right button {
     color: blue;
@@ -88,12 +108,14 @@ nav {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    /* border: 1px solid blue; */
 }
 .left-container .item {
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 20px;
+    /* border: 1px solid red; */
 }
 .left-container .item img{
     width: 20%;
